@@ -13,7 +13,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let purchase of purchases" [class.green]="purchase.status === false">
+      <tr *ngFor="let purchase of purchases | myfilter:'name'" [class.green]="purchase.status === false">
         <th scope="row"> {{purchase.id}} </th>
         <td> {{purchase.name}} </td>
         <td> {{purchase.amount}} </td>

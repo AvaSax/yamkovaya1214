@@ -5,11 +5,11 @@ import { PurchasesRoutingModule } from './purchases-routing.module';
 import { PurchaseListComponent } from './purchase-list/purchase-list.component';
 import { PurchaseEditComponent } from './purchase-edit/purchase-edit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-// import { MyfilterPipe } from '../shared/pipes/myfilter.pipe';
+import { MyfilterPipe } from '../shared/pipes/myfilter.pipe';
 
 
 @NgModule({
-  declarations: [PurchaseListComponent, PurchaseEditComponent],
+  declarations: [PurchaseListComponent, PurchaseEditComponent, MyfilterPipe],
   imports: [
     CommonModule,
     PurchasesRoutingModule,

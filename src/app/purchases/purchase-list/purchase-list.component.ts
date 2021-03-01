@@ -30,7 +30,6 @@ export class PurchaseListComponent implements OnInit {
     try {
       let purchases = this.MypurchasesService.getAll();
       this.purchases = isNullOrUndefined(await purchases) ? [] : await purchases;
-      console.log(this.purchases);      
     } catch (err) {
       console.error(err);
     }
