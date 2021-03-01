@@ -16,11 +16,11 @@ const routes: Routes = [
       {
         path: 'edit',
         component: PurchaseEditComponent,
-      }
-      // {
-      //   path: 'edit/:id',
-      //   component: PurchaseEditComponent,
-      // },
+      },
+      {
+        path: 'edit/:id',
+        component: PurchaseEditComponent,
+      },
     ],
   },
 ];

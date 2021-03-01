@@ -3,7 +3,7 @@
     {
       "name": "milk",
       "amount": "2",
-      "status": false,
+      "status": true,
       "id": 1
     },
     {
