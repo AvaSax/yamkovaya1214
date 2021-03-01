@@ -1,0 +1,28 @@
+{
+  "purchases": [
+    {
+      "name": "milk",
+      "amount": "2",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "juice",
+      "amount": 1,
+      "status": true,
+      "id": 2
+    },
+    {
+      "name": "water",
+      "amount": "3",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "tea",
+      "amount": "1",
+      "status": true,
+      "id": 4
+    }
+  ]
+}
